@@ -22,10 +22,10 @@ public class NikitoshAndXor {
         //s=br.readLine().split("\\s");
 
         for (int i = 0; i < n; i++) {
-            //a[i]=Integer.parseInt(s[i]);
+            //xenny[i]=Integer.parseInt(s[i]);
             a[i]=r.nextInt();
-           /* maxPrefix[i]=a[i];
-            maxSuffix[i]=a[i];*/
+           /* maxPrefix[i]=xenny[i];
+            maxSuffix[i]=xenny[i];*/
         }
         System.out.println(solve(n));
 

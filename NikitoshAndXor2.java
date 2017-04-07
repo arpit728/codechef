@@ -26,8 +26,8 @@ public class NikitoshAndXor2{
 
         for (int i = 0; i < n; i++) {
             a[i]=Integer.parseInt(s[i]);
-           /* maxPrefix[i]=a[i];
-            maxSuffix[i]=a[i];*/
+           /* maxPrefix[i]=xenny[i];
+            maxSuffix[i]=xenny[i];*/
         }
 
         System.out.println(solve(n));

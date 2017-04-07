@@ -55,7 +55,7 @@ public class BetterMaximalSum {
 
         for (int i=n-2;i>=0;i--){
             s[i]=Long.max(a[i],s[i+1]+a[i]);
-            //System.out.println("a[i]= "+a[i]+"prev"+prev);
+            //System.out.println("xenny[i]= "+xenny[i]+"prev"+prev);
         }
 
         for (int i = 1; i <(n-1) ; i++) {
@@ -64,7 +64,7 @@ public class BetterMaximalSum {
         }
 
         /*for (int i = 0; i < n; i++) {
-            System.out.print(a[i] + " ");
+            System.out.print(xenny[i] + " ");
         }
         System.out.println();
         for (int i = 0; i < n; i++) {

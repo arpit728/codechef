@@ -81,16 +81,16 @@ public class FireEscapeRoutes {
 
        /* int i=0,y[]=new int[100001];
 
-        while (x[a]!=a){
+        while (x[xenny]!=xenny){
 
-            y[i]=a;
-            a=x[a];
+            y[i]=xenny;
+            xenny=x[xenny];
             i++;
 
         }
 
         for (int j = 0; j < i; j++) {
-            x[y[j]]=x[a];
+            x[y[j]]=x[xenny];
         }
 */
         if (x[a]!=a)x[a]=findSet(x[a]);

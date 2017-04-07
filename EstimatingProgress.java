@@ -114,7 +114,7 @@ public class EstimatingProgress {
 
     private static void add(int pos) {
 
-        //System.out.println(pos+" "+a[pos]);
+        //System.out.println(pos+" "+xenny[pos]);
         if (counts[a[pos]]>0) {
             counts[a[pos]]++;
             return;
@@ -133,16 +133,16 @@ public class EstimatingProgress {
         if (next!=null && prev!=null)
             ans-=(long)(next-prev)*(next-prev);
 
-        /*if (set.add(a[pos]))
+        /*if (set.add(xenny[pos]))
         {
-            Integer prev=set.lower(a[pos]);
-            Integer next=set.higher(a[pos]);
+            Integer prev=set.lower(xenny[pos]);
+            Integer next=set.higher(xenny[pos]);
 
             if (prev!=null){
-                ans+=(long)(a[pos]-prev)*(a[pos]-prev);
+                ans+=(long)(xenny[pos]-prev)*(xenny[pos]-prev);
             }
             if (next!=null){
-                ans+=(long)(next-a[pos])*(next-a[pos]);
+                ans+=(long)(next-xenny[pos])*(next-xenny[pos]);
             }
             if (next!=null && prev!=null)
                 ans-=(long)(next-prev)*(next-prev);

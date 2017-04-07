@@ -46,10 +46,10 @@ public class Art {
 
         //It's possible to not allocate any array at all and just compute the answer on the fly, like in the following:
 
-        /*int curr=a[1],prev=a[0],next=0;// replace the assignment by input
+        /*int curr=xenny[1],prev=xenny[0],next=0;// replace the assignment by input
 
         for (int i =2; i < n; i++) {
-            next=a[i];// replace the assignment by input
+            next=xenny[i];// replace the assignment by input
             if (curr==prev && curr==next)return "Yes";
             prev=curr;
             curr=next;
