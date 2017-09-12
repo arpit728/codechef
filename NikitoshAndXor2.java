@@ -18,7 +18,7 @@ public class NikitoshAndXor2{
     static int idx;
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br=  new BufferedReader(new InputStreamReader(System.in));
         int n;
         String s[];
         n=Integer.parseInt(br.readLine());
@@ -105,7 +105,8 @@ public class NikitoshAndXor2{
         for (int i =31  ; i>=0 ; i--) {
             int currBit=0;
 
-            if (((1<<i)&key)>=1)currBit=1;
+            if (((1<<i)&key)>=1)
+                currBit=1;
 
             if (currBit==1){
                 if (t1[r]>0)r=t1[r];
